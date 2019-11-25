@@ -17,7 +17,7 @@ calculator.read();
 alert( "Sum = " + calculator.sum() );
 alert( "Mul = " + calculator.mul() );
 */
-/*
+
 //Task4 Калькулятор
 let calculator = {
   read(){
@@ -34,8 +34,3 @@ let calculator = {
 calculator.read();
 alert( "Сумма чисел: " + calculator.sum() );
 alert( calculator.mul() );
-*/
-var obj = {
-	go:function(){alert(this)}
-}
-obj.go()
